@@ -1,0 +1,46 @@
+
+#runbutton {
+    /* background-color: transparent; */
+    float: center;
+    margin-top: 7px;
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* position: 'absolute';
+    outline: 'none';
+    border: 'none'; */
+    border-radius: 250px; 
+    background-color:rgb(57, 180, 74);
+    font-size: 13px;
+    color: white;
+}
+
+#runbutton:hover {
+    /* padding-left: 50px; */
+    /* border-radius: 2px; */
+    border-color: gray;
+}
+
+#showbutton {
+    /* background-color: transparent; */
+    float: center;
+    margin-top: 3px;
+    width: 30px;
+    height: 30px;
+    padding-left: 7px;
+    padding-right: 10px;
+    /* position: 'absolute';
+    outline: 'none';
+    border: 'none'; */
+    border-radius: 250px; 
+    background-color:rgb(57, 180, 74);
+    font-size: 13px;
+    color: white;
+}
+
+#showbutton:hover {
+    /* padding-left: 50px; */
+    /* border-radius: 2px; */
+    border-color: gray;
+}

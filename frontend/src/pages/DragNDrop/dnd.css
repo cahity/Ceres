@@ -1,0 +1,177 @@
+.dndflow {
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.dndflow label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dndflow input {
+  width: 90%;
+  padding: 1px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 28px;
+}
+
+.dndflow button {
+  width: 90%;
+  padding: 1px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 28px;
+}
+.dndflow hr {
+  margin: 10px 0;
+  color: black;
+}
+
+.dndflow img {
+  display: inline-block;
+  width: 134px;
+}
+.dndflow aside {
+  border-right: 1px solid #eee;
+  padding: 15px 10px;
+  font-size: 12px;
+  background: #fcfcfc;
+  overflow-y: auto;
+}
+
+.dndflow aside .dropdownButton {
+  position: relative;
+  /* border-radius: 10px; */
+  height: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.dndflow aside .dropdownIconOpened {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  right: 5px;
+  bottom: 5px;
+  transform: rotate(-90deg);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.dndflow aside .dropdownIconClosed {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  right: 5px;
+  bottom: 5px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.dndflow aside .dropdownButtonText {
+  position: relative;
+  top: 5px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgb(55, 62, 70);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.dndflow aside .description {
+  margin-bottom: 10px;
+}
+
+.dndflow a {
+  text-decoration: none;
+}
+.dndflow .dndnode {
+  /* height: 90%; */
+  /* margin: 0 auto; */
+  width: 85%;
+  padding: 4px;
+  border: 1px solid #1a192b;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.dndflow .dndnode.input {
+  border-color: #0041d0;
+}
+
+.dndflow .dndnode.output {
+  border-color: #ff0072;
+}
+.dndflow .dndnode.data_create {
+  border-color: green;
+  background: rgba(170, 111, 214, 1);
+}
+.dndflow .dndnode.data_preprocess {
+  border-color: green;
+  background: rgb(111, 181, 214, 1);
+}
+.dndflow .dndnode.data_visualize {
+  border-color: green;
+  background: rgba(184, 159, 90, 1);
+}
+.dndflow .dndnode.model_create {
+  border-color: green;
+  background: rgba(168, 64, 64, 1);
+}
+
+.dndflow .dndnode.model_visualize {
+  /* border-color: rgb(128, 68, 0); */
+  background: rgba(66, 194, 69, 1);
+}
+
+.dndflow .dndnode.model_train {
+  border-color: rgba(128, 0, 107, 0.315);
+  background: rgba(69, 106, 176, 1);
+}
+
+.dndflow .reactflow-wrapper {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .dndflow {
+    flex-direction: row;
+  }
+
+  .dndflow aside {
+    width: 25%;
+    max-width: 250px;
+  }
+}
+
+div.scroll {
+  overflow-y: auto;
+}

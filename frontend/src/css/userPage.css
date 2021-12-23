@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.userPage {
+  margin-left: 2%;
+  font-family: "Roboto", sans-serif;
+}
+
+.column {
+  position: relative;
+  float: left;
+  height: 160px;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(54, 130, 216, 0.8);
+  border-radius: 20px;
+}
+
+.column:hover {
+  background-color: rgb(54, 130, 216);
+}
+
+.column:active {
+  background-color: rgba(54, 130, 216, 0.9);
+}
+
+.cellTitle {
+  position: relative;
+  bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: white;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.cellDescription {
+  position: relative;
+  bottom: 48px;
+  left: 2px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.815);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.cellUpdate {
+  position: absolute;
+  bottom: 0px;
+  left: 22px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.438);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.userpageHeader {
+  margin-top: 100px;
+  width: 300px;
+}
+
+.userpageHeaderText {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  margin-top: 5%;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  color: rgb(54, 130, 216);
+}
+
+.addWEButton {
+  position: relative;
+  float: right;
+  height: 40px;
+  width: 40px;
+  left: 35px;
+  bottom: 75px;
+  border-radius: 40px;
+  background-color: rgba(60, 179, 114, 0.8);
+}
+
+.addWEButton:hover {
+  background-color: rgba(60, 179, 114);
+}
+
+.addWEButton:active {
+  background-color: rgba(60, 179, 114, 0.8);
+}
+
+.addWEButtonPlusMark {
+  position: relative;
+  font-size: 32px;
+  color: white;
+  bottom: 4px;
+  left: 10px;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.addDatasetButton {
+  position: relative;
+  float: right;
+  height: 40px;
+  width: 40px;
+  left: -115px;
+  bottom: 75px;
+  border-radius: 40px;
+  background-color: rgba(60, 179, 114, 0.8);
+}
+
+.addDatasetButton:hover {
+  background-color: rgba(60, 179, 114);
+}
+
+.addDatasetButton:active {
+  background-color: rgba(60, 179, 114, 0.8);
+}
+
+hr.userpageSeperator {
+  border-top: 8px solid rgba(54, 130, 216, 0.233);
+  border-radius: 5px;
+}
+
+.popupframe {
+  position: relative;
+  height: 55%;
+  width: 50%;
+  padding: 10px;
+  margin-left: 25%;
+  margin-top: 12%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.popupTitle {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: rgb(54, 130, 216);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  left: 30px;
+}
+
+.popupFieldName {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: rgba(54, 130, 216, 0.8);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  left: 30px;
+  top: 20px;
+}
+
+.popupCloseButton {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(255, 99, 71, 0.8);
+  border-radius: 50px;
+  right: 10px;
+  top: 10px;
+}
+
+.popupCloseButton:hover {
+  background-color: rgba(255, 99, 71);
+}
+
+.popupCloseButton:active {
+  background-color: rgba(255, 99, 71, 0.9);
+}
+
+.popupCloseButtonXMark {
+  position: relative;
+  left: 16px;
+  top: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: white;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.popupbackground {
+  position: fixed;
+  top: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popupCreateButton {
+  position: relative;
+  height: 50px;
+  width: 160px;
+  background-color: rgba(60, 179, 114, 0.8);
+  border-radius: 10px;
+  top: 30px;
+  left: 30px;
+}
+
+.popupCreateButton:hover {
+  background-color: rgba(60, 179, 114);
+}
+
+.popupCreateButton:active {
+  background-color: rgba(60, 179, 114, 0.9);
+}
+
+.popupCreateButtonText {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  top: 8px;
+  left: 40px;
+}
+
+input {
+  width: 90%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 28px;
+}
+
+.popupFileUpload {
+  position: relative;
+  border-style: solid;
+  border-color: rgb(54, 130, 216);
+}
+
+.deleteCellButton {
+  position: absolute;
+  background-color: rgba(255, 99, 71, 0.5);
+  width: 60px;
+  height: 20px;
+  right: 20px;
+  bottom: 18px;
+  border-radius: 10px;
+}
+
+.deleteCellButton:hover {
+  background-color: rgba(255, 99, 71);
+}
+
+.deleteCellButton:active {
+  background-color: rgba(255, 99, 71, 0.8);
+}
+
+.deleteCellButtonText {
+  position: relative;
+  color: white;
+  bottom: 16px;
+  left: 9px;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.makePublicButton {
+  position: absolute;
+  background-color: rgba(122, 104, 0, 0.5);
+  width: 100px;
+  height: 20px;
+  right: 90px;
+  bottom: 18px;
+  border-radius: 10px;
+}
+
+.makePublicButton:hover {
+  background-color: rgba(122, 104, 0);
+}
+
+.makePublicButton:active {
+  background-color: rgba(122, 104, 0, 0.8);
+}
+
+.makePublicButtonText {
+  position: relative;
+  color: white;
+  bottom: 16px;
+  text-align: center;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
