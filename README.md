@@ -10,7 +10,7 @@ Ceres is an online platform to help you implement your Machine Learning model wi
 - Cloud Solution for Datasets
 ---
 
-To run the project, follow ![RUN.md](RUN.md).
+To run the project, follow [RUN.md](RUN.md).
 
 <br>
 
